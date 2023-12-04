@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.4.0...v1.5.0) (2023-12-04)
+
+
+### Features
+
+* add rigprep ([25c07fd](https://github.com/stoeps13/bluefin-stoeps/commit/25c07fd871b5ac879e4e6b3952e40e90c3ed50b9))
+
 ## [1.4.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.3.0...v1.4.0) (2023-12-04)
 
 
