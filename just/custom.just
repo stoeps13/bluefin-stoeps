@@ -100,6 +100,11 @@ distrobox-wolfi:
     echo 'Creating WolfiOS distrobox ...'
     distrobox create --image ghcr.io/ublue-os/wolfi-toolbox:latest -n wolfi
 
+# Create a Kali OS container
+distrobox-kali:
+    echo 'Creating Kali distrobox ...'
+    distrobox create --image ghcr.io/ublue-os/kali-toolbox:latest -n kali
+
 # Create a universal developer container
 distrobox-universal:
     echo 'Creating Universal Development distrobox ...'
@@ -107,7 +112,7 @@ distrobox-universal:
 
 # Switch to the fish shell
 fish:
-    sudo usermod $USER --shell /usr/bin/fish 
+    sudo usermod $USER --shell /usr/bin/fish
     printf "${USER}'s shell is now %s." "$(cat /etc/passwd | grep ":$UID:" | cut '-d:' '-f7')"
 
 # Install recommended GNOME extensions
@@ -287,7 +292,7 @@ yafti:
 
 # Switch to the zsh shell
 zsh:
-    sudo usermod $USER --shell /usr/bin/zsh 
+    sudo usermod $USER --shell /usr/bin/zsh
     printf "${USER}'s shell is now %s." "$(cat /etc/passwd | grep ":$UID:" | cut '-d:' '-f7')"
 
 # Enable docker on the system
