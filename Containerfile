@@ -106,7 +106,7 @@ ARG PACKAGE_LIST="bluefin-dx"
 
 # dx specific files come from the dx directory in this repo
 COPY dx/usr /usr
-COPY dx/etc/yum.repos.d/ /etc/yum.repos.d/
+COPY dx/etc/* /etc/
 COPY workarounds.sh \
      packages.json \
      build.sh \
@@ -145,6 +145,23 @@ RUN rpm-ostree install https://github.com/loft-sh/devpod/releases/download/v0.3.
 RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr/bin/kubectx && \
     wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubens -O /usr/bin/kubens && \
     chmod +x /usr/bin/kubectx /usr/bin/kubens
+
+# Install monaspace fonts
+RUN cd /tmp &&\
+    git clone --depth 1 https://github.com/githubnext/monaspace.git /tmp/monaspace && \
+    mkdir /usr/share/fonts/monospace && \
+    cp /tmp/monospace/fonts/otf/Monaspace*.otf /usr/share/fonts/monaspace && \
+    rm -rf /tmp/monospace && \
+    fc-cache -f /usr/share/fonts/monaspace
+
+# Clone oh-my-zsh
+RUN git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel.d/.oh-my-zsh && \
+    chmod 755 /etc/skel.d -R 
+
+#ZSH plugins. See /etc/skel.d/.oh-my-zsh/templates/zshrc.zsh-template for default zshrc
+RUN git clone https://github.com/zsh-users/zsh-autosuggestions /etc/skel.d/.oh-my-zsh/custom/plugins/zsh-autosuggestions && \
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /etc/skel.d/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting && \
+    chmod 755 /etc/skel.d -R
 
 # Set up services
 RUN systemctl enable podman.socket && \
