@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.5.0...v1.6.0) (2023-12-06)
+
+
+### Features
+
+* switch to winter wallpaper ([#714](https://github.com/stoeps13/bluefin-stoeps/issues/714)) ([021de85](https://github.com/stoeps13/bluefin-stoeps/commit/021de8532e8f7d934a933326819ce9c789ce9183))
+
+
+### Bug Fixes
+
+* Drop 38 support in gnome-vrr, add Xwayland patch for Nvidia 545 ([#715](https://github.com/stoeps13/bluefin-stoeps/issues/715)) ([333f8d6](https://github.com/stoeps13/bluefin-stoeps/commit/333f8d64276d95bef06a093d3506f87194b9bd0f))
+
 ## [1.5.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.4.0...v1.5.0) (2023-12-04)
 
 
