@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.6.0...v1.6.1) (2023-12-06)
+
+
+### Features
+
+* reenable bluefin ([64d39c9](https://github.com/stoeps13/bluefin-stoeps/commit/64d39c93c77d0a6dfaaafb77220d5bea2b39c400))
+
 ## [1.6.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.5.0...v1.6.0) (2023-12-06)
 
 
