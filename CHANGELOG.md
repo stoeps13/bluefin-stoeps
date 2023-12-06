@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.0...v1.7.1) (2023-12-06)
+
+
+### Bug Fixes
+
+* copy /etc ([120dec4](https://github.com/stoeps13/bluefin-stoeps/commit/120dec44683de23cae36a1d0f76bd06dbca1109b))
+
 ## [1.7.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.6.1...v1.7.0) (2023-12-06)
 
 
