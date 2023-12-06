@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.5](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.4...v1.7.5) (2023-12-06)
+
+
+### Bug Fixes
+
+* monaspace fonts ([c16cd30](https://github.com/stoeps13/bluefin-stoeps/commit/c16cd30f10d320885d2d430c20b541fd87548261))
+
 ## [1.7.4](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.3...v1.7.4) (2023-12-06)
 
 
