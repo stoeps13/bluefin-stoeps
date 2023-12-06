@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.1...v1.7.2) (2023-12-06)
+
+
+### Bug Fixes
+
+* copy k9s from the right folder ([3cbf794](https://github.com/stoeps13/bluefin-stoeps/commit/3cbf794dae492a90cf2e9a7081c24ba845fbeace))
+
 ## [1.7.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.0...v1.7.1) (2023-12-06)
 
 
