@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.4](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.3...v1.7.4) (2023-12-06)
+
+
+### Bug Fixes
+
+* remove k9s ([8ed77be](https://github.com/stoeps13/bluefin-stoeps/commit/8ed77bec979f4cde6ff94fc4a10be4c7ab2894d9))
+
 ## [1.7.3](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.2...v1.7.3) (2023-12-06)
 
 
