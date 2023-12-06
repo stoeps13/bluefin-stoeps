@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.6.1...v1.7.0) (2023-12-06)
+
+
+### Features
+
+* update skel.d ([fe44d30](https://github.com/stoeps13/bluefin-stoeps/commit/fe44d3015bf892187232ac39887ec8a3c98998f0))
+
 ## [1.6.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.6.0...v1.6.1) (2023-12-06)
 
 
