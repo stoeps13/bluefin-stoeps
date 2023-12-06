@@ -144,7 +144,7 @@ RUN rpm-ostree install https://github.com/loft-sh/devpod/releases/download/v0.3.
 RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr/bin/kubectx && \
     wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubens -O /usr/bin/kubens && \
     curl -s https://api.github.com/repos/derailed/k9s/releases/latest | grep "k9s_Linux_amd64.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -qi - -O /tmp/k9s.tar.gz && \
-    cd tmp && tar xvzf k9s.tar.gz && cp k9s /usr/bin/k9s && \
+    cd /tmp && tar xvzf k9s.tar.gz && cp /tmp/k9s /usr/bin/k9s && \
     rm /tmp/k9s* && \
     chmod +x /usr/bin/kubectx /usr/bin/kubens /usr/bin/k9s
 
