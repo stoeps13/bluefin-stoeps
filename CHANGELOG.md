@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.3](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.2...v1.7.3) (2023-12-06)
+
+
+### Bug Fixes
+
+* install k9s not working ([54759fd](https://github.com/stoeps13/bluefin-stoeps/commit/54759fdbdceb61923250f1b1da16771e6bbf05e3))
+
 ## [1.7.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.1...v1.7.2) (2023-12-06)
 
 
