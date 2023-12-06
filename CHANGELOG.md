@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.1...v1.8.2) (2023-12-06)
+
+
+### Bug Fixes
+
+* going back to skel.d ([6daf6fd](https://github.com/stoeps13/bluefin-stoeps/commit/6daf6fdac31cb46da05a432d8fd187d783059a1b))
+
 ## [1.8.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.0...v1.8.1) (2023-12-06)
 
 
