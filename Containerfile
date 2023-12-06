@@ -104,7 +104,8 @@ ARG PACKAGE_LIST="bluefin-dx"
 
 # dx specific files come from the dx directory in this repo
 COPY dx/usr /usr
-COPY dx/etc/yum.repos.d dx/etc/skel.d /etc/
+COPY dx/etc/yum.repos.d /etc/
+COPY dx/etc/skel.d /etc/
 RUN ls -al /etc/skel.d /etc/yum.repos.d
 COPY workarounds.sh \
      packages.json \
