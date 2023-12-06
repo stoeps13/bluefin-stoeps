@@ -105,7 +105,7 @@ ARG PACKAGE_LIST="bluefin-dx"
 # dx specific files come from the dx directory in this repo
 COPY dx/usr /usr
 COPY dx/etc /etc/
-RUN ls -al /etc/skel.d 
+RUN ls -al /etc/profiles.d 
 COPY workarounds.sh \
      packages.json \
      build.sh \
@@ -156,13 +156,13 @@ RUN cd /tmp &&\
     fc-cache -f /usr/share/fonts/monaspace
 
 # Clone oh-my-zsh
-RUN git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel.d/.oh-my-zsh && \
-    chmod 755 /etc/skel.d -R 
+RUN git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/profiles.d/.oh-my-zsh && \
+    chmod 755 /etc/profiles.d -R 
 
-#ZSH plugins. See /etc/skel.d/.oh-my-zsh/templates/zshrc.zsh-template for default zshrc
-RUN git clone https://github.com/zsh-users/zsh-autosuggestions /etc/skel.d/.oh-my-zsh/custom/plugins/zsh-autosuggestions && \
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /etc/skel.d/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting && \
-    chmod 755 /etc/skel.d -R
+#ZSH plugins. See /etc/profiles.d/.oh-my-zsh/templates/zshrc.zsh-template for default zshrc
+RUN git clone https://github.com/zsh-users/zsh-autosuggestions /etc/profiles.d/.oh-my-zsh/custom/plugins/zsh-autosuggestions && \
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /etc/profiles.d/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting && \
+    chmod 755 /etc/profiles.d -R
 
 # Set up services
 RUN systemctl enable podman.socket && \
