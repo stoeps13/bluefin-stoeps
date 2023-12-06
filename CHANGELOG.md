@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.5...v1.8.0) (2023-12-06)
+
+
+### Features
+
+* move skel to profiles to make it active on updates ([de2027c](https://github.com/stoeps13/bluefin-stoeps/commit/de2027cbd3ce394741c804555051f974dfee2b7a))
+
 ## [1.7.5](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.4...v1.7.5) (2023-12-06)
 
 
