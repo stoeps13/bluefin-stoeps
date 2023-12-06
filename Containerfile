@@ -103,11 +103,9 @@ ARG FEDORA_MAJOR_VERSION="${FEDORA_MAJOR_VERSION}"
 ARG PACKAGE_LIST="bluefin-dx"
 
 # dx specific files come from the dx directory in this repo
-RUN mkdir -p /etc/skel.d
 COPY dx/usr /usr
-COPY dx/etc/yum.repos.d /etc/
-COPY dx/etc/skel.d/.zshrc /etc/skel.d/.zshrc
-RUN ls -al /etc/skel.d /etc/yum.repos.d
+COPY dx/etc /etc/
+RUN ls -al /etc/skel.d 
 COPY workarounds.sh \
      packages.json \
      build.sh \
