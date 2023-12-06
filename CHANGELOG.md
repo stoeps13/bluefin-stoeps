@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.0...v1.8.1) (2023-12-06)
+
+
+### Bug Fixes
+
+* set oh-my-zsh path to /etc/profiles.d ([eac3ee4](https://github.com/stoeps13/bluefin-stoeps/commit/eac3ee4640012807640b2b3f8e8fa4022f1404b3))
+
 ## [1.8.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.7.5...v1.8.0) (2023-12-06)
 
 
