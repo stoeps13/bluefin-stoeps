@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.6](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.5...v1.8.6) (2023-12-07)
+
+
+### Bug Fixes
+
+* move locale command to fix zsh agnoster ([7c6f729](https://github.com/stoeps13/bluefin-stoeps/commit/7c6f729f9d59bdc1e2ed44cebfc6de439bf2c831))
+
 ## [1.8.5](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.4...v1.8.5) (2023-12-07)
 
 
