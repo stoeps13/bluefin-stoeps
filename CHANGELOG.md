@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.5](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.4...v1.8.5) (2023-12-07)
+
+
+### Bug Fixes
+
+* redo monaspace typo fixing ([e583b55](https://github.com/stoeps13/bluefin-stoeps/commit/e583b5525e1feeb3b68b4071339a41eca7482a78))
+* ubuntu toolbox missing locales for zsh ([fd4b310](https://github.com/stoeps13/bluefin-stoeps/commit/fd4b310b189d19b8f42cc41e74478cddf65e100a))
+
 ## [1.8.4](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.3...v1.8.4) (2023-12-07)
 
 
