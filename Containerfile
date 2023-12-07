@@ -148,9 +148,9 @@ RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr
 # Install monaspace fonts
 RUN cd /tmp &&\
     git clone --depth 1 https://github.com/githubnext/monaspace.git /tmp/monaspace && \
-    mkdir /usr/share/fonts/monospace && \
-    cp /tmp/monospace/fonts/otf/Monaspace*.otf /usr/share/fonts/monaspace && \
-    rm -rf /tmp/monospace && \
+    mkdir /usr/share/fonts/monaspace && \
+    cp /tmp/monaspace/fonts/otf/Monaspace*.otf /usr/share/fonts/monaspace && \
+    rm -rf /tmp/monaspace && \
     fc-cache -f /usr/share/fonts/monaspace
 
 # Clone oh-my-zsh
