@@ -1,10 +1,10 @@
-FROM quay.io/toolbx-images/ubuntu-toolbox:22.04
+FROM quay.io/toolbx-images/ubuntu-toolbox:latest
 # From https://github.com/toolbx-images/images/tree/main/ubuntu/22.04
 
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
       summary="A cloud-native terminal experience powered by Ubuntu" \
-      maintainer="jorge.castro@gmail.com"
+      maintainer="christoph.stoettner@stoeps.de"
 
 COPY ./toolboxes/packages.ubuntu /toolbox-packages
 
