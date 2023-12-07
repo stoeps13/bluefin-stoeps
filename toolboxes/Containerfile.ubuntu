@@ -12,14 +12,14 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install \
         $(cat toolbox-packages | xargs) && \
-    rm -rd /var/lib/apt/lists/* &&
-    locale-gen en_US.UTF-8
+    rm -rd /var/lib/apt/lists/* 
 
 RUN rm /toolbox-packages
 
 RUN   ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \ 
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/podman && \
-      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree
+      ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree && \
+      locale-gen en_US.UTF-8
 
 RUN echo "ALL            ALL = (ALL) NOPASSWD: ALL" >> /etc/sudoers
