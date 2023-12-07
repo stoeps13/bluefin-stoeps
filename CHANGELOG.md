@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.3](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.2...v1.8.3) (2023-12-07)
+
+
+### Bug Fixes
+
+* going back to skel.d - rename src folder ([dc5d70f](https://github.com/stoeps13/bluefin-stoeps/commit/dc5d70f2416981f81048807046e3075bf7ca1fa6))
+
 ## [1.8.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.1...v1.8.2) (2023-12-06)
 
 
