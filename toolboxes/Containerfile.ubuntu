@@ -12,7 +12,8 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     DEBIAN_FRONTEND=noninteractive apt-get -y install \
         $(cat toolbox-packages | xargs) && \
-    rm -rd /var/lib/apt/lists/*
+    rm -rd /var/lib/apt/lists/* &&
+    locale-gen en_US.UTF-8
 
 RUN rm /toolbox-packages
 
