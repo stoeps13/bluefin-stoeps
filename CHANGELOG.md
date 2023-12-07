@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.10.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.0...v1.10.1) (2023-12-07)
+
+
+### Bug Fixes
+
+* add custom just commands ([85b2b63](https://github.com/stoeps13/bluefin-stoeps/commit/85b2b63e39bb474c140b389857e31332868f55a2))
+* Add git to fedora toolbox ([16fbe31](https://github.com/stoeps13/bluefin-stoeps/commit/16fbe31b8291339e89b96a381c4610b6fe0f6693))
+* Update justfile and distrobox to use selfgenerated images ([cba194b](https://github.com/stoeps13/bluefin-stoeps/commit/cba194bbaa21f87d6731764b12445bfc8fc984b6))
+
 ## [1.10.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.9.0...v1.10.0) (2023-12-07)
 
 
