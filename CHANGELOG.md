@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.4](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.3...v1.8.4) (2023-12-07)
+
+
+### Bug Fixes
+
+* add oh-my-zsh path to HOME ([cb48856](https://github.com/stoeps13/bluefin-stoeps/commit/cb48856fa68cad8dacd2d002a37b1f44d8d632c5))
+
 ## [1.8.3](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.2...v1.8.3) (2023-12-07)
 
 
