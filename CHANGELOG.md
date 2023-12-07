@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.6...v1.9.0) (2023-12-07)
+
+
+### Features
+
+* update ubuntu image to latest ([af13bcb](https://github.com/stoeps13/bluefin-stoeps/commit/af13bcbea73d66b1c57139b3d97503ac9d62ce28))
+
 ## [1.8.6](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.5...v1.8.6) (2023-12-07)
 
 
