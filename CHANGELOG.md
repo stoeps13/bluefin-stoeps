@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.1...v1.10.2) (2023-12-07)
+
+
+### Bug Fixes
+
+* indentation ([e1df371](https://github.com/stoeps13/bluefin-stoeps/commit/e1df371db319186522c0b27e4ec72cf2f654b176))
+
 ## [1.10.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.0...v1.10.1) (2023-12-07)
 
 
