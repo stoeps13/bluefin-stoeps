@@ -62,10 +62,6 @@ libegl1-mesa
 libelf1
 libexpat1
 libgbm1
-libgl1
-libgl1-amber-dri
-libgl1-mesa-dri
-libgl1-mesa-glx
 libglapi-mesa
 libglvnd0
 libglx-mesa0
