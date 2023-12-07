@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.9.0...v1.10.0) (2023-12-07)
+
+
+### Features
+
+* update toolboxes ([8751f8f](https://github.com/stoeps13/bluefin-stoeps/commit/8751f8f935c34930dd15f37b994ed0c616ba533f))
+
 ## [1.9.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.8.6...v1.9.0) (2023-12-07)
 
 
