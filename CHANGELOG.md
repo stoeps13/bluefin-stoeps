@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.3](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.2...v1.10.3) (2023-12-08)
+
+
+### Bug Fixes
+
+* remove some libs in ubuntu container to update image to latest ([40a0697](https://github.com/stoeps13/bluefin-stoeps/commit/40a069741ec5cb2b32973a5b2a790a64fe372bb5))
+
 ## [1.10.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.1...v1.10.2) (2023-12-07)
 
 
