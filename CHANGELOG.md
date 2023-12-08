@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.4](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.3...v1.10.4) (2023-12-08)
+
+
+### Bug Fixes
+
+* remove monaspaced fonts ([4983d4e](https://github.com/stoeps13/bluefin-stoeps/commit/4983d4e968325ea2471e6ec221dcb32228d27f2a))
+
 ## [1.10.3](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.2...v1.10.3) (2023-12-08)
 
 
