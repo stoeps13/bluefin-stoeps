@@ -145,14 +145,6 @@ RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr
     wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubens -O /usr/bin/kubens && \
     chmod +x /usr/bin/kubectx /usr/bin/kubens
 
-# Install monaspace fonts
-RUN cd /tmp &&\
-    git clone --depth 1 https://github.com/githubnext/monaspace.git /tmp/monaspace && \
-    mkdir /usr/share/fonts/monaspace && \
-    cp /tmp/monaspace/fonts/variable/Monaspace*.ttf /usr/share/fonts/monaspace && \
-    rm -rf /tmp/monaspace && \
-    fc-cache -f /usr/share/fonts/monaspace
-
 # Clone oh-my-zsh
 RUN git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel.d/.oh-my-zsh && \
     chmod 755 /etc/skel.d -R 
