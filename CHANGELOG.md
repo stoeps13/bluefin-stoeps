@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.5](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.4...v1.10.5) (2023-12-08)
+
+
+### Bug Fixes
+
+* removing v4loopback, obs is freezing too often ([ce95bca](https://github.com/stoeps13/bluefin-stoeps/commit/ce95bca38265be586d8b3b1d3773d98c41042c33))
+
 ## [1.10.4](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.3...v1.10.4) (2023-12-08)
 
 
