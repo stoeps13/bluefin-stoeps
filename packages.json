@@ -69,6 +69,7 @@
                 "qemu-user-binfmt",
                 "qemu-user-static",
                 "qemu",
+		"stow",
 	        "tmux",
                 "virt-manager",
                 "virt-viewer"
