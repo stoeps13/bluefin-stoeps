@@ -122,9 +122,6 @@ RUN wget https://copr.fedorainfracloud.org/coprs/ganto/lxc4/repo/fedora-"${FEDOR
 RUN /tmp/build.sh && \
     /tmp/image-info.sh
 
-RUN wget https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 -O /tmp/docker-compose && \
-    install -c -m 0755 /tmp/docker-compose /usr/bin
-
 COPY --from=cgr.dev/chainguard/flux:latest /usr/bin/flux /usr/bin/flux
 COPY --from=cgr.dev/chainguard/helm:latest /usr/bin/helm /usr/bin/helm
 COPY --from=cgr.dev/chainguard/ko:latest /usr/bin/ko /usr/bin/ko
@@ -153,11 +150,6 @@ RUN git clone https://github.com/ohmyzsh/ohmyzsh.git /etc/skel.d/.oh-my-zsh && \
 RUN git clone https://github.com/zsh-users/zsh-autosuggestions /etc/skel.d/.oh-my-zsh/custom/plugins/zsh-autosuggestions && \
     git clone https://github.com/zsh-users/zsh-syntax-highlighting.git /etc/skel.d/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting && \
     chmod 755 /etc/skel.d -R
-
-# Set up services
-RUN systemctl enable podman.socket && \
-    systemctl disable pmie.service && \
-    systemctl disable pmlogger.service
 
 RUN /tmp/workarounds.sh
 
