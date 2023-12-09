@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.11.1...v1.11.2) (2023-12-09)
+
+
+### Bug Fixes
+
+* disable wayland in gdm ([c075329](https://github.com/stoeps13/bluefin-stoeps/commit/c075329d36d125ed2510d2cb63f2dd57a6ee5997))
+
 ## [1.11.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.11.0...v1.11.1) (2023-12-09)
 
 
