@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.11.2...v1.12.0) (2023-12-09)
+
+
+### Features
+
+* rename image ([87d2c2a](https://github.com/stoeps13/bluefin-stoeps/commit/87d2c2ad7ea33be746324c3f9578134091e0e835))
+
 ## [1.11.2](https://github.com/stoeps13/bluefin-stoeps/compare/v1.11.1...v1.11.2) (2023-12-09)
 
 
