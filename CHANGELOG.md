@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.5...v1.11.0) (2023-12-09)
+
+
+### Features
+
+* remove docker and most of the fonts ([a710c97](https://github.com/stoeps13/bluefin-stoeps/commit/a710c97d0996884aefa05efaf18c98a3e8ce7eb7))
+
 ## [1.10.5](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.4...v1.10.5) (2023-12-08)
 
 
