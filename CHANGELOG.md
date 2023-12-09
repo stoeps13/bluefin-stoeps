@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.1](https://github.com/stoeps13/bluefin-stoeps/compare/v1.11.0...v1.11.1) (2023-12-09)
+
+
+### Bug Fixes
+
+* remove podman.socket, no compose used with podman ([59d19bb](https://github.com/stoeps13/bluefin-stoeps/commit/59d19bb83bd05c94e558eb5466f3693801d56061))
+
 ## [1.11.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.10.5...v1.11.0) (2023-12-09)
 
 
