@@ -1,0 +1,9 @@
+{
+  "image-name": "stoeps-dx",
+  "image-flavor": "main",
+  "image-vendor": "stoeps13",
+  "image-ref": "ostree-image-signed:docker://ghcr.io/stoeps13/bluefin-dx",
+  "image-tag":"39",
+  "base-image-name": "",
+  "fedora-version": "39"
+}
