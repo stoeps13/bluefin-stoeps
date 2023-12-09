@@ -22,4 +22,4 @@ RUN   ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree && \
       locale-gen en_US.UTF-8
 
-RUN echo "ALL            ALL = (ALL) NOPASSWD: ALL" >> /etc/sudoers
+# RUN echo "ALL            ALL = (ALL) NOPASSWD: ALL" >> /etc/sudoers
