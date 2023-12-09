@@ -42,6 +42,7 @@
                 "zsh"
             ],
             "bluefin-dx": [
+		"alacritty",
                 "cascadiacode-nerd-fonts",
                 "code",
                 "containerd.io",
