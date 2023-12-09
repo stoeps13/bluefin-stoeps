@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.13.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.12.0...v1.13.0) (2023-12-09)
+
+
+### Features
+
+* add alacritty, configure distrobox.ini ([f60c31e](https://github.com/stoeps13/bluefin-stoeps/commit/f60c31e62e1c614f3354f25404d7e24d59acf28a))
+* add stow ([e30caf4](https://github.com/stoeps13/bluefin-stoeps/commit/e30caf433993b0c9f3634aa03332db414081a266))
+
 ## [1.12.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.11.2...v1.12.0) (2023-12-09)
 
 
