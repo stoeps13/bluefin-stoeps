@@ -14,6 +14,9 @@ RUN apt-get update && \
 
 RUN rm /toolbox-packages
 
+# Clone repositories if not present
+# RUN if cd repo; then git pull; else git clone url; fi
+
 RUN   ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/flatpak && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/podman && \
