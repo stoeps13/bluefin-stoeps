@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.14.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.13.0...v1.14.0) (2023-12-17)
+
+
+### Features
+
+* add fd-find ([d453213](https://github.com/stoeps13/bluefin-stoeps/commit/d45321382a9ce222c1eb7149198c6dd8ab3b5176))
+* Add Logo Menu & Prepare for Prompt future ([#732](https://github.com/stoeps13/bluefin-stoeps/issues/732)) ([94bb013](https://github.com/stoeps13/bluefin-stoeps/commit/94bb013a241e40c74d381100dc3b166c2e033c32))
+* Add Prompt integration ([#728](https://github.com/stoeps13/bluefin-stoeps/issues/728)) ([a03332d](https://github.com/stoeps13/bluefin-stoeps/commit/a03332d8f8c6a1cc218b9c8afac7a2f6a6a4c5ea))
+* **dx:** add kcli ([#724](https://github.com/stoeps13/bluefin-stoeps/issues/724)) ([1a11711](https://github.com/stoeps13/bluefin-stoeps/commit/1a11711761bdb4eaeb55060d149cbd21a0c3e326))
+* **dx:** add make back ([#731](https://github.com/stoeps13/bluefin-stoeps/issues/731)) ([236d37f](https://github.com/stoeps13/bluefin-stoeps/commit/236d37fb16e9f1d981adbbef01e3287431c25191))
+
+
+### Bug Fixes
+
+* nim package name ([c49feb4](https://github.com/stoeps13/bluefin-stoeps/commit/c49feb448a3dd8037797c43ea8cf8a8dd88f1c67))
+* nim package name not written, forgot -O ([3255a64](https://github.com/stoeps13/bluefin-stoeps/commit/3255a64b1838c7b1d5ba3142d4b2119de2433b88))
+* Port over a fix for flatpaks failing to install from Bazzite ([#730](https://github.com/stoeps13/bluefin-stoeps/issues/730)) ([846af93](https://github.com/stoeps13/bluefin-stoeps/commit/846af936f6d24d09f831ed44d5c5e8b59efe9c8a))
+* remove nopasswd sudo from ubuntu container ([8f29e3a](https://github.com/stoeps13/bluefin-stoeps/commit/8f29e3a9b30dbbd766f1d132892b96326361f97c))
+* **ubuntu:** slim down ubuntu toolbox ([#725](https://github.com/stoeps13/bluefin-stoeps/issues/725)) ([b43a5f7](https://github.com/stoeps13/bluefin-stoeps/commit/b43a5f75424ba92e11bb0d8a9cbe30f11f35ea0f))
+
 ## [1.13.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.12.0...v1.13.0) (2023-12-09)
 
 
