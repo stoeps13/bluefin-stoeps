@@ -48,6 +48,7 @@
                 "containerd.io",
                 "dbus-x11",
                 "edk2-ovmf",
+		"fd-find",
                 "genisoimage",
                 "iotop",
                 "libvirt",
