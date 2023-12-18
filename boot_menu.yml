@@ -1,16 +1,16 @@
 ublue_variants:
-  - label: ublue-os/bluefin
+  - label: ublue-os/bluestoeps
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: bluefin
+      - label: bluestoeps
         info: Bluefin
-  - label: ublue-os/bluefin-nvidia
+  - label: ublue-os/bluestoeps-nvidia
     ks: /kickstart/ublue-os-nvidia.ks
     subvariants:
       - label: latest driver
       - label: 470xx driver
         suffix: -470
     flavors:
-      - label: bluefin-nvidia
+      - label: bluestoeps-nvidia
         info: Bluefin
         

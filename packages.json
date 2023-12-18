@@ -1,7 +1,7 @@
 {
     "all": {
         "include": {
-            "bluefin": [
+            "bluestoeps": [
                 "bash-color-prompt",
                 "cockpit-bridge",
                 "evtest",
@@ -42,7 +42,7 @@
                 "wl-clipboard",
                 "zsh"
             ],
-            "bluefin-dx": [
+            "bluestoeps-dx": [
 				"alacritty",
                 "cascadiacode-nerd-fonts",
                 "code",
@@ -79,7 +79,7 @@
             ]
         },
         "exclude": {
-            "bluefin": [
+            "bluestoeps": [
                 "firefox-langpacks",
                 "firefox",
                 "gnome-extensions-app",
@@ -87,36 +87,36 @@
                 "gnome-tour",
                 "ublue-os-update-services"
             ],
-            "bluefin-dx": []
+            "bluestoeps-dx": []
         }
     },
     "38": {
         "include": {
-            "bluefin": [],
-            "bluefin-dx": [],
-            "bluefin-framework": []
+            "bluestoeps": [],
+            "bluestoeps-dx": [],
+            "bluestoeps-framework": []
         },
         "exclude": {
-            "bluefin": [
+            "bluestoeps": [
                 "podman-docker"
             ],
-            "bluefin-dx": []
+            "bluestoeps-dx": []
         }
     },
     "39": {
         "include": {
-            "bluefin": [
+            "bluestoeps": [
                 "input-leap"
             ],
-            "bluefin-dx": [],
-            "bluefin-framework": []
+            "bluestoeps-dx": [],
+            "bluestoeps-framework": []
         },
         "exclude": {
-            "bluefin": [
+            "bluestoeps": [
                 "podman-docker"
             ],
-            "bluefin-dx": [],
-            "bluefin-framework": []
+            "bluestoeps-dx": [],
+            "bluestoeps-framework": []
         }
     }
 }
