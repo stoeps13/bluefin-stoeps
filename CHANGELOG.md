@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.15.0](https://github.com/stoeps13/bluestoeps/compare/v1.14.0...v1.15.0) (2023-12-18)
+
+
+### Features
+
+* adjust README ([ffeb7b8](https://github.com/stoeps13/bluestoeps/commit/ffeb7b86dd37183cbf284362dbef1ca7609894fb))
+* Change description ([57c68e5](https://github.com/stoeps13/bluestoeps/commit/57c68e54911aeaa3a976344b6cab2692fa65eee8))
+* rename image to bluestoeps ([527d9d9](https://github.com/stoeps13/bluestoeps/commit/527d9d90be955e18837401543cfb95331f2b6290))
+* start renaming image ([b83ed05](https://github.com/stoeps13/bluestoeps/commit/b83ed05fe1888503d4b7c57d4cad584729880016))
+
+
+### Bug Fixes
+
+* rollback image-info, showed wrong image version ([1813dc2](https://github.com/stoeps13/bluestoeps/commit/1813dc235a68a74d1f7174433ea2861d7b471504))
+
 ## [1.14.0](https://github.com/stoeps13/bluefin-stoeps/compare/v1.13.0...v1.14.0) (2023-12-17)
 
 
