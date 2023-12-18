@@ -3,7 +3,7 @@ ublue_variants:
     ks: /kickstart/ublue-os.ks
     flavors:
       - label: bluestoeps
-        info: Bluefin
+        info: Bluestoeps
   - label: ublue-os/bluestoeps-nvidia
     ks: /kickstart/ublue-os-nvidia.ks
     subvariants:
@@ -12,5 +12,5 @@ ublue_variants:
         suffix: -470
     flavors:
       - label: bluestoeps-nvidia
-        info: Bluefin
+        info: Bluestoeps
         
