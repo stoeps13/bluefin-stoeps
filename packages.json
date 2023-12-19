@@ -51,6 +51,7 @@
 				"dbus-x11",
 				"edk2-ovmf",
 				"fd-find",
+				"fzf",
 				"gcc",
 				"gcc-c++",
 				"genisoimage",
