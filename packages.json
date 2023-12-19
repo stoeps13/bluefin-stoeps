@@ -59,7 +59,6 @@
 				"kernel-devel",
 				"libvirt",
 				"make",
-				"neovim",
 				"obs-studio",
 				"p7zip",
 				"p7zip-plugins",
@@ -80,6 +79,7 @@
 				"qemu-user-static",
 				"stow",
 				"tmux",
+				"vim",
 				"virt-manager",
 				"virt-viewer"
 			]
