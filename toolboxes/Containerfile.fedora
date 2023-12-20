@@ -2,8 +2,8 @@ FROM ghcr.io/ublue-os/fedora-distrobox:latest
 # From https://github.com/ublue-os/fedora-distrobox
 
 LABEL com.github.containers.toolbox="true" \
-      usage="This image is meant to be used with the toolbox or distrobox command" \
-      summary="A cloud-native terminal experience powered by Fedora" 
+    usage="This image is meant to be used with the toolbox or distrobox command" \
+    summary="A cloud-native terminal experience powered by Fedora"
 
 COPY ./toolboxes/packages.fedora /toolbox-packages
 
@@ -13,4 +13,11 @@ RUN dnf -y upgrade && \
 
 RUN rm /toolbox-packages
 
+# Install nim
 RUN wget https://nim-lang.org/download/nim-2.0.0-linux_x64.tar.xz -O /tmp/nim-2.0.0-linux_x64.tar.xz && cd /opt && tar xvJf /tmp/nim-2.0.0-linux_x64.tar.xz && cd nim-2.0.0 && ./install.sh /usr/local/bin && rm -rf /tmp/nim*
+
+# Install language server for neovim
+RUN npm install -g dockerfile-language-server-nodejs vscode-json-languageservice yaml-language-server
+
+# Install ltex-ls
+RUN cd /tmp && curl -s https://api.github.com/repos/valentjn/ltex-ls/releases/latest | grep "browser_download_url" | grep "linux-x64.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -i - -O ltex-ls.tar.gz && tar xvzf ltex-ls.tar.gz && mv $(find . -maxdepth 1 -name ltex-ls\* -type d | sort | tail -n1) /opt/ltex-ls && ln -s /opt/ltex-ls/bin/ltex-ls /usr/bin

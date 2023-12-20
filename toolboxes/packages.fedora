@@ -1,5 +1,16 @@
+automake
 curl
+fd-find
+fzf
+gcc
+gcc-c++
 git
+make
 neovim
+npm
+nodejs-bash-language-server
 ripgrep
+stow
+tmux
+vim
 wget
