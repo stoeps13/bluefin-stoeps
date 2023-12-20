@@ -20,4 +20,4 @@ RUN wget https://nim-lang.org/download/nim-2.0.0-linux_x64.tar.xz -O /tmp/nim-2.
 RUN npm install -g dockerfile-language-server-nodejs vscode-json-languageservice yaml-language-server
 
 # Install ltex-ls
-RUN cd /tmp && curl -s https://api.github.com/repos/valentjn/ltex-ls/releases/latest | grep "browser_download_url" | grep "linux-x64.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -i - -O ltex-ls.tar.gz && tar xvzf ltex-ls.tar.gz && mv $(find . -maxdepth 1 -name ltex-ls\* -type d | sort | tail -n1) /opt/ltex-ls && ln -s /opt/ltex-ls/bin/ltex-ls /usr/bin
+RUN cd /tmp && curl -s https://api.github.com/repos/valentjn/ltex-ls/releases/latest | grep "browser_download_url" | grep "linux-x64.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -i - -O ltex-ls.tar.gz && tar xvzf ltex-ls.tar.gz && mv $(find . -maxdepth 1 -name ltex-ls\* -type d | sort | tail -n1) /opt/ltex-ls && ln -s /opt/ltex-ls/bin/ltex-ls /usr/bin && rm -rf /tmp/ltex*
