@@ -49,6 +49,8 @@
 				"code",
 				"containerd.io",
 				"dbus-x11",
+                                "devpod",
+				"distrobuilder",
 				"edk2-ovmf",
 				"fd-find",
 				"fzf",
