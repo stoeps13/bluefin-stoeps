@@ -6,6 +6,28 @@
 ### Features
 
 * Add build essentials ([06ea364](https://github.com/stoeps13/bluestoeps/commit/06ea36465920bdec2e1cb69e24e66ab0404d1483))
+* add distrobuilder to -dx ([#739](https://github.com/stoeps13/bluestoeps/issues/739)) ([894d397](https://github.com/stoeps13/bluestoeps/commit/894d397e8b79d56ed66ccbbeb76efac07dd27504))
+* add fzf ([294b42d](https://github.com/stoeps13/bluestoeps/commit/294b42dfda8623153d378fe2052c78061f5fa298))
+* add languageserver ([67cdfa0](https://github.com/stoeps13/bluestoeps/commit/67cdfa0d5d3d6e136b80c535ce95c390f3aeefb1))
+* **dx:** Use DevPod from the ublue-os/staging copr ([#738](https://github.com/stoeps13/bluestoeps/issues/738)) ([4202205](https://github.com/stoeps13/bluestoeps/commit/4202205a665210f9b382dace440b3385a43977ca))
+* merge upstream from bluefin ([6269bef](https://github.com/stoeps13/bluestoeps/commit/6269bef1d6e985e0d35244c59011f8a63a276a89))
+
+
+### Bug Fixes
+
+* change image name in boot menu ([bb8806d](https://github.com/stoeps13/bluestoeps/commit/bb8806d9bb53759009adac811e1cc222e6f64d2c))
+* format packages.json ([3493d22](https://github.com/stoeps13/bluestoeps/commit/3493d22ba3ba01f739baa9801ef487e82e5f5c23))
+* remove empty line ([def1cf6](https://github.com/stoeps13/bluestoeps/commit/def1cf62e24c2e1550d847d6065d189648c75948))
+* remove neovim ([9d620ee](https://github.com/stoeps13/bluestoeps/commit/9d620ee4f6f3027ed0286b466f7763408427de8c))
+* Update Containerfile ([2989f7c](https://github.com/stoeps13/bluestoeps/commit/2989f7ccf9d887e53539a045ef85c9d4bc13f76a))
+* Update Containerfile ([8ae132f](https://github.com/stoeps13/bluestoeps/commit/8ae132fa14b0e51eb4a4d74528cea7e8a73b162c))
+
+## [1.16.0](https://github.com/stoeps13/bluestoeps/compare/v1.15.0...v1.16.0) (2023-12-20)
+
+
+### Features
+
+* Add build essentials ([06ea364](https://github.com/stoeps13/bluestoeps/commit/06ea36465920bdec2e1cb69e24e66ab0404d1483))
 * add fzf ([294b42d](https://github.com/stoeps13/bluestoeps/commit/294b42dfda8623153d378fe2052c78061f5fa298))
 * add languageserver ([67cdfa0](https://github.com/stoeps13/bluestoeps/commit/67cdfa0d5d3d6e136b80c535ce95c390f3aeefb1))
 
