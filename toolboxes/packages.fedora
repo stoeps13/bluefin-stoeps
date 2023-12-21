@@ -9,7 +9,9 @@ make
 neovim
 nodejs-bash-language-server
 npm
+pandoc
 python3
+python3-ipywidgets
 python3-widgetsnbextension
 ripgrep
 rubygem-asciidoctor
