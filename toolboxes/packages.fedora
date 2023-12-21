@@ -5,6 +5,7 @@ fzf
 gcc
 gcc-c++
 git
+hugo
 make
 neovim
 nodejs-bash-language-server
