@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.17.0](https://github.com/stoeps13/bluestoeps/compare/v1.16.0...v1.17.0) (2023-12-21)
+
+
+### Features
+
+* add lazygit ([7171a81](https://github.com/stoeps13/bluestoeps/commit/7171a815da8a413d5930692101266d81986f91dc))
+* add more apps ([e8decd9](https://github.com/stoeps13/bluestoeps/commit/e8decd9ffafa3b15327df5a924dbca759c5a6abf))
+* add pandoc and jupyter nb widgets ([f14bbed](https://github.com/stoeps13/bluestoeps/commit/f14bbed916fdf08e8ae2a2da42e493727f53d220))
+* **dx:** turn on docker socket by default ([#740](https://github.com/stoeps13/bluestoeps/issues/740)) ([ac2027c](https://github.com/stoeps13/bluestoeps/commit/ac2027cdd0e71c438c9bfd75fc7894a2083f4c2b))
+* **prompt:** match bazzite and g-t behavior ([#741](https://github.com/stoeps13/bluestoeps/issues/741)) ([cd96a51](https://github.com/stoeps13/bluestoeps/commit/cd96a51cc80ecf77154084ac3a68a4b7b41453b5))
+
+
+### Bug Fixes
+
+* fedora image ([e5c65b9](https://github.com/stoeps13/bluestoeps/commit/e5c65b95376b688e35d8786406dd91494d86d061))
+* json lang server not working ([e3248ea](https://github.com/stoeps13/bluestoeps/commit/e3248eafbb71bd3d25371ab863dbf900b8f4e9f4))
+* json langserver not starting ([d8e72d2](https://github.com/stoeps13/bluestoeps/commit/d8e72d21c1b89932dec68fb27bb23aed30fd15a4))
+* reformat with langserver ([cafbc13](https://github.com/stoeps13/bluestoeps/commit/cafbc13b75955f4f379ab13adc2b2c0d2fdb4889))
+
 ## [1.16.0](https://github.com/stoeps13/bluestoeps/compare/v1.15.0...v1.16.0) (2023-12-20)
 
 
