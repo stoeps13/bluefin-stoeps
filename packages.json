@@ -52,6 +52,7 @@
                 "devpod",
                 "distrobuilder",
                 "edk2-ovmf",
+                "epson-inkjet-printer-escpr2",
                 "fd-find",
                 "fzf",
                 "gcc",
