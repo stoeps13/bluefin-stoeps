@@ -21,3 +21,6 @@ RUN npm install -g dockerfile-language-server-nodejs && npm install -g vscode-js
 
 # Install ltex-ls
 RUN cd /tmp && curl -s https://api.github.com/repos/valentjn/ltex-ls/releases/latest | grep "browser_download_url" | grep "linux-x64.tar.gz" | cut -d : -f 2,3 | tr -d \" | wget -q -i - -O ltex-ls.tar.gz && tar xzf ltex-ls.tar.gz && mv $(find . -maxdepth 1 -name ltex-ls\* -type d | sort | tail -n1) /opt/ltex-ls && ln -s /opt/ltex-ls/bin/ltex-ls /usr/bin && rm -rf /tmp/ltex*
+
+# Install mkdocs
+RUN pip install mkdocs mkdocs-material mkdocs-section-index
