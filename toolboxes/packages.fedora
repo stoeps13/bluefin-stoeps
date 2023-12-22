@@ -6,6 +6,7 @@ gcc
 gcc-c++
 git
 hugo
+java-latest-openjdk
 make
 neovim
 nodejs-bash-language-server
