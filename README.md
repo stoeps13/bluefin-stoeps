@@ -1,8 +1,6 @@
 # This is based on bluefin
 
-**This image is considered Beta** 
-
-## [projectbluefin.io](https://projectbluefin.io)
+**This image is considered Beta**
 
 - I added my most used programs and adjusted the container images for distrotube
 - This is pretty much made for my daily work and not a generic approach like Bluefin
