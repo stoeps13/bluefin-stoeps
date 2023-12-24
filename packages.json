@@ -45,6 +45,7 @@
             "bluestoeps-dx": [
                 "alacritty",
                 "automake",
+		"bat",
                 "cascadiacode-nerd-fonts",
                 "code",
                 "containerd.io",
