@@ -1,6 +1,9 @@
 # Disabled image gets to large (error no space left on device during build)
 # kali-linux-headless
+bat
 burpsuite
-zaproxy
 eyewitness
+neovim
 python3-altair
+ripgrep
+zaproxy
