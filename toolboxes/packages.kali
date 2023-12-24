@@ -3,6 +3,7 @@
 bat
 burpsuite
 eyewitness
+fzf
 neovim
 python3-altair
 ripgrep
