@@ -8,6 +8,7 @@ neovim
 python3-altair
 ripgrep
 stow
+sudo
 tmux
 vim
 wget
