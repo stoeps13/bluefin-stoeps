@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.18.0](https://github.com/stoeps13/bluestoeps/compare/v1.17.0...v1.18.0) (2023-12-26)
+
+
+### Features
+
+* add cli tools to Kali; ([8e6a660](https://github.com/stoeps13/bluestoeps/commit/8e6a660c4a6069a384b5916914d959d5ea5d9fe3))
+* add epson printer driver ([061fd4f](https://github.com/stoeps13/bluestoeps/commit/061fd4fbf386d8c870e0f5f78f87750799b9d061))
+* add export of burpsuite and zap ([f48293a](https://github.com/stoeps13/bluestoeps/commit/f48293a29cfa9e305678b4030a0b7432d3076541))
+* add hugo ([18fb289](https://github.com/stoeps13/bluestoeps/commit/18fb28925de2164ed983eda36c69bf8309d69c42))
+* add openjdk for languagetool ([92351a0](https://github.com/stoeps13/bluestoeps/commit/92351a0c6f6cefd0e79d21fa4e09cfdd050c7301))
+* add option to have comments in package file ([b4bccf8](https://github.com/stoeps13/bluestoeps/commit/b4bccf8d35596f4bab3970bacb09d0cb59d1db13))
+* add patched power-profiles-daemon ([#758](https://github.com/stoeps13/bluestoeps/issues/758)) ([cab8b83](https://github.com/stoeps13/bluestoeps/commit/cab8b833fb908aa2482fd0a209c74315ef690a87))
+* add ripgrep and bat ([b79871d](https://github.com/stoeps13/bluestoeps/commit/b79871d39e17a5f8ecc4d1bca58e9fa1e6f10c95))
+* **ci:** Verify base/Chainguard image(s) with cosign before building ([#754](https://github.com/stoeps13/bluestoeps/issues/754)) ([b0703f9](https://github.com/stoeps13/bluestoeps/commit/b0703f95cb52c825aa0504b9bf497a57010ced62))
+* Enable num-lock by default ([#756](https://github.com/stoeps13/bluestoeps/issues/756)) ([6421500](https://github.com/stoeps13/bluestoeps/commit/64215008eb3f612b66306ad530d63b8adc736e93))
+* Fix caps-lock input delay ([#757](https://github.com/stoeps13/bluestoeps/issues/757)) ([dda52b0](https://github.com/stoeps13/bluestoeps/commit/dda52b0d769e11d9af33f8e3cfb8c72fbfad7bd1))
+* merge upstream from bluefin ([e5c781d](https://github.com/stoeps13/bluestoeps/commit/e5c781d642a1da4340c45082ad79fa4f05f1083e))
+* remove oh-my-zsh from skel.d, using dotfiles now) ([e8c55b3](https://github.com/stoeps13/bluestoeps/commit/e8c55b3113723874c363a67409842761cc761f7f))
+* switch to tailscale-gnome-qs extension ([#744](https://github.com/stoeps13/bluestoeps/issues/744)) ([5b794d3](https://github.com/stoeps13/bluestoeps/commit/5b794d3a86cb36faaff5cfdc6523c209b7be9340))
+* work on kali packages ([c9f1a78](https://github.com/stoeps13/bluestoeps/commit/c9f1a788bbad9523b12fec023c26e8ed8eaeb867))
+* work on kali packages ([636bc55](https://github.com/stoeps13/bluestoeps/commit/636bc550be4ab8c75f1ce551b0b884b6d494d8cf))
+
+
+### Bug Fixes
+
+* add sudo ([7c4ae91](https://github.com/stoeps13/bluestoeps/commit/7c4ae91636dcd9af309cb6055b1047c4661a3265))
+* Always launch prompt in a new window when xdg-terminal-exec is called with no input ([#748](https://github.com/stoeps13/bluestoeps/issues/748)) ([0531ff9](https://github.com/stoeps13/bluestoeps/commit/0531ff926d8c48ffb86c220845a2ae9eda812e32))
+* Correct issue with command check in xdg-terminal-exec ([e48a816](https://github.com/stoeps13/bluestoeps/commit/e48a81688a5b0a0c812b0a5329e252e8a58c9fe2))
+* lazygit install broke image ([2c2e166](https://github.com/stoeps13/bluestoeps/commit/2c2e166003349cf591642a930b929182db7660f5))
+* remove bluefin link ([263cac4](https://github.com/stoeps13/bluestoeps/commit/263cac4821bcc2d995c30c31b15105304f1af05e))
+* remove nvidia support from davinci toolbox ([0d7f9d7](https://github.com/stoeps13/bluestoeps/commit/0d7f9d768e24195d05c6e8685aad536b9d3ce5f2))
+* Restore Control+Alt+T shortcut for terminals ([#747](https://github.com/stoeps13/bluestoeps/issues/747)) ([c8d0663](https://github.com/stoeps13/bluestoeps/commit/c8d0663f73b5496751a516880b43f533b8e014ad))
+* typo ([2f6309c](https://github.com/stoeps13/bluestoeps/commit/2f6309c5452a5b7822723de99fe55d747c96f937))
+* use tailscale-qs for F39 only ([#746](https://github.com/stoeps13/bluestoeps/issues/746)) ([d6f26e2](https://github.com/stoeps13/bluestoeps/commit/d6f26e22eb60e53d163e77417ee89c44fdcf58ae))
+
 ## [1.17.0](https://github.com/stoeps13/bluestoeps/compare/v1.16.0...v1.17.0) (2023-12-21)
 
 
