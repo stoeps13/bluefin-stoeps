@@ -155,7 +155,7 @@ RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr
     chmod +x /usr/bin/kubectx /usr/bin/kubens
 
 # Install mistral to replace dropbox
-RUN pip install maestral
+# RUN pip install maestral
 
 RUN /tmp/workarounds.sh
 
