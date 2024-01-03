@@ -47,18 +47,18 @@ COPY --from=ghcr.io/ublue-os/akmods:${AKMODS_FLAVOR}-${FEDORA_MAJOR_VERSION} /rp
 RUN sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo && \
     wget https://negativo17.org/repos/fedora-multimedia.repo -O /etc/yum.repos.d/negativo17-fedora-multimedia.repo && \
     if [[ "${FEDORA_MAJOR_VERSION}" -ge "39" ]]; then \
-        rpm-ostree install \
-            /tmp/akmods-rpms/kmods/*xpadneo*.rpm \
-            /tmp/akmods-rpms/kmods/*xpad-noone*.rpm \
-            /tmp/akmods-rpms/kmods/*xone*.rpm \
-            /tmp/akmods-rpms/kmods/*openrazer*.rpm \
-            /tmp/akmods-rpms/kmods/*v4l2loopback*.rpm \
-            /tmp/akmods-rpms/kmods/*wl*.rpm \
+    rpm-ostree install \
+    /tmp/akmods-rpms/kmods/*xpadneo*.rpm \
+    /tmp/akmods-rpms/kmods/*xpad-noone*.rpm \
+    /tmp/akmods-rpms/kmods/*xone*.rpm \
+    /tmp/akmods-rpms/kmods/*openrazer*.rpm \
+    /tmp/akmods-rpms/kmods/*wl*.rpm \
+    /tmp/akmods-rpms/kmods/*v4l2loopback*.rpm \
     ; fi && \
     # Don't install evdi on asus because of conflicts
     if grep -qv "asus" <<< "${AKMODS_FLAVOR}"; then \
-        rpm-ostree install \
-            /tmp/akmods-rpms/kmods/*evdi*.rpm \
+    rpm-ostree install \
+    /tmp/akmods-rpms/kmods/*evdi*.rpm \
     ; fi && \
     sed -i 's@enabled=1@enabled=0@g' /etc/yum.repos.d/negativo17-fedora-multimedia.repo
 
@@ -139,7 +139,6 @@ RUN rpm-ostree override replace --experimental --from repo=copr:copr.fedorainfra
 # RUN wget https://github.com/docker/compose/releases/latest/download/docker-compose-linux-x86_64 -O /tmp/docker-compose && \
 #    install -c -m 0755 /tmp/docker-compose /usr/bin
 
-COPY --from=cgr.dev/chainguard/dive:latest /usr/bin/dive /usr/bin/dive
 COPY --from=cgr.dev/chainguard/flux:latest /usr/bin/flux /usr/bin/flux
 COPY --from=cgr.dev/chainguard/helm:latest /usr/bin/helm /usr/bin/helm
 COPY --from=cgr.dev/chainguard/ko:latest /usr/bin/ko /usr/bin/ko
