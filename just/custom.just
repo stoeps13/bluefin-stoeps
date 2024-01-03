@@ -188,6 +188,21 @@ garden:
         echo ""
     fi
 
+# Install and configure Incus
+incus:
+    #!/usr/bin/env bash
+    CURRENT_IMAGE=$(rpm-ostree status -b --json | jq -r '.deployments[0]."container-image-reference"')
+
+    if grep -q "bluefin-dx" <<< $CURRENT_IMAGE
+    then
+        echo 'Installing and configuring Incus.'
+        /usr/bin/bluefin-incus
+    else
+        echo "Developer mode is currently ${CURRENT_STATE}."
+        echo "Run `just devmode` to turn on Developer mode."
+        exit
+    fi
+
 # Install nix and Devbox
 nix-devbox:
     echo 'Setting phasers to kill. Installing nix.'
@@ -295,8 +310,10 @@ zsh:
     sudo usermod $USER --shell /usr/bin/zsh
     printf "${USER}'s shell is now %s." "$(cat /etc/passwd | grep ":$UID:" | cut '-d:' '-f7')"
 
-# Enable docker on the system
-docker:
-    sudo systemctl enable --now docker
+# Configure docker,incus-admin,lxd,libvirt container manager permissions
+dx-group:
     sudo usermod -aG docker $USER
-    newgrp docker
+    sudo usermod -aG incus-admin $USER
+    sudo usermod -aG lxd $USER
+    sudo usermod -aG libvirt $USER
+    @echo "Logout to use docker, incus-admin, lxd, libvirt"
