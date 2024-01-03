@@ -27,3 +27,6 @@ RUN cd /tmp && curl -s https://api.github.com/repos/valentjn/ltex-ls/releases/la
 
 # Install mkdocs
 RUN pip install mkdocs mkdocs-material mkdocs-section-index
+
+# Install GitHub cli
+RUN dnf install 'dnf-command(config-manager)' && dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo && dnf install -y gh
