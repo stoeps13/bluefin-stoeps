@@ -20,11 +20,11 @@ ripgrep
 rubygem-asciidoctor
 rubygem-asciidoctor-pdf
 stow
-texlive-fonts-extra 
-texlive-fonts-recommended
-texlive-lang-all
-texlive-latex-extra 
-texlive-latex-recommended 
+texlive-collection-fontsextra
+texlive-collection-fontsrecommended
+texlive-collection-langgerman
+texlive-collection-latexextra
+texlive-collection-latexrecommended
 tmux
 vim
 wget
