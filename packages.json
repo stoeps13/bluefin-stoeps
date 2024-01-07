@@ -1,132 +1,131 @@
-{
-    "all": {
-        "include": {
-            "bluestoeps": [
-                "bash-color-prompt",
-                "cockpit-bridge",
-                "evtest",
-                "fish",
-                "glow",
-                "gum",
-                "gnome-shell-extension-appindicator",
-                "gnome-shell-extension-blur-my-shell",
-                "gnome-shell-extension-dash-to-dock",
-                "gnome-shell-extension-gsconnect",
-                "gnome-shell-extension-logo-menu",
-                "hplip",
-                "ifuse",
-                "input-remapper",
-                "libgda-sqlite",
-                "libgda",
-                "libimobiledevice",
-                "libratbag-ratbagd",
-                "libxcrypt-compat",
-                "mesa-libGLU",
-                "nautilus-gsconnect",
-                "pulseaudio-utils",
-                "python3-pip",
-                "ripgrep",
-                "samba-dcerpc",
-                "samba-ldb-ldap-modules",
-                "samba-winbind-clients",
-                "samba-winbind-modules",
-                "samba",
-                "solaar",
-                "stress-ng",
-                "tmux",
-                "ublue-update",
-                "usbmuxd",
-                "wireguard-tools",
-                "xprop",
-                "yaru-theme",
-                "wl-clipboard",
-                "zsh"
-            ],
-            "bluestoeps-dx": [
-                "alacritty",
-                "automake",
-		"bat",
-                "cascadiacode-nerd-fonts",
-                "code",
-                "containerd.io",
-                "dbus-x11",
-                "devpod",
-                "distrobuilder",
-                "edk2-ovmf",
-                "epson-inkjet-printer-escpr2",
-                "fd-find",
-                "fzf",
-                "gcc",
-                "gcc-c++",
-                "genisoimage",
-                "iotop",
-                "kernel-devel",
-                "libvirt",
-                "make",
-                "obs-studio",
-                "p7zip",
-                "p7zip-plugins",
-                "podman-compose",
-                "podman-plugins",
-                "podman-tui",
-                "podmansh",
-                "powerline-fonts",
-                "powertop",
-                "qemu",
-                "qemu-char-spice",
-                "qemu-device-display-virtio-gpu",
-                "qemu-device-display-virtio-vga",
-                "qemu-device-usb-redirect",
-                "qemu-img",
-                "qemu-system-x86-core",
-                "qemu-user-binfmt",
-                "qemu-user-static",
-                "stow",
-                "tmux",
-                "vim",
-                "virt-manager",
-                "virt-viewer"
-            ]
-        },
-        "exclude": {
-            "bluestoeps": [
-                "firefox-langpacks",
-                "firefox",
-                "gnome-extensions-app",
-                "gnome-software-rpm-ostree",
-                "gnome-tour",
-                "ublue-os-update-services"
-            ],
-            "bluestoeps-dx": []
-        }
+"all": {
+    "include": {
+        "bluestoeps": [
+            "bash-color-prompt",
+            "cockpit-bridge",
+            "evtest",
+            "fish",
+            "glow",
+            "gum",
+            "gnome-shell-extension-appindicator",
+            "gnome-shell-extension-blur-my-shell",
+            "gnome-shell-extension-dash-to-dock",
+            "gnome-shell-extension-gsconnect",
+            "gnome-shell-extension-logo-menu",
+            "hplip",
+            "ifuse",
+            "input-remapper",
+            "libgda-sqlite",
+            "libgda",
+            "libimobiledevice",
+            "libratbag-ratbagd",
+            "libxcrypt-compat",
+            "mesa-libGLU",
+            "nautilus-gsconnect",
+            "pulseaudio-utils",
+            "python3-pip",
+            "ripgrep",
+            "samba-dcerpc",
+            "samba-ldb-ldap-modules",
+            "samba-winbind-clients",
+            "samba-winbind-modules",
+            "samba",
+            "solaar",
+            "stress-ng",
+            "tmux",
+            "ublue-update",
+            "usbmuxd",
+            "wireguard-tools",
+            "xprop",
+            "yaru-theme",
+            "wl-clipboard",
+            "zsh"
+        ],
+        "bluestoeps-dx": [
+            "alacritty",
+            "automake",
+"bat",
+            "cascadiacode-nerd-fonts",
+            "code",
+            "containerd.io",
+            "dbus-x11",
+            "devpod",
+            "distrobuilder",
+            "edk2-ovmf",
+            "epson-inkjet-printer-escpr2",
+            "fd-find",
+            "firewall-config",
+            "fzf",
+            "gcc",
+            "gcc-c++",
+            "genisoimage",
+            "iotop",
+            "kernel-devel",
+            "libvirt",
+            "make",
+            "obs-studio",
+            "p7zip",
+            "p7zip-plugins",
+            "podman-compose",
+            "podman-plugins",
+            "podman-tui",
+            "podmansh",
+            "powerline-fonts",
+            "powertop",
+            "qemu",
+            "qemu-char-spice",
+            "qemu-device-display-virtio-gpu",
+            "qemu-device-display-virtio-vga",
+            "qemu-device-usb-redirect",
+            "qemu-img",
+            "qemu-system-x86-core",
+            "qemu-user-binfmt",
+            "qemu-user-static",
+            "stow",
+            "tmux",
+            "vim",
+            "virt-manager",
+            "virt-viewer"
+        ]
     },
-    "38": {
-        "include": {
-            "bluestoeps": [],
-            "bluestoeps-dx": [],
-            "bluestoeps-framework": []
-        },
-        "exclude": {
-            "bluestoeps": [
-                "podman-docker"
-            ],
-            "bluestoeps-dx": []
-        }
+    "exclude": {
+        "bluestoeps": [
+            "firefox-langpacks",
+            "firefox",
+            "gnome-extensions-app",
+            "gnome-software-rpm-ostree",
+            "gnome-tour",
+            "ublue-os-update-services"
+        ],
+        "bluestoeps-dx": []
+    }
+},
+"38": {
+    "include": {
+        "bluestoeps": [],
+        "bluestoeps-dx": [],
+        "bluestoeps-framework": []
     },
-    "39": {
-        "include": {
-            "bluestoeps": [
-                "input-leap"
-            ],
-            "bluestoeps-dx": [],
-            "bluestoeps-framework": []
-        },
-        "exclude": {
-            "bluestoeps": [
-                "podman-docker"
-            ],
-            "bluestoeps-dx": [],
-            "bluestoeps-framework": []
-        }
+    "exclude": {
+        "bluestoeps": [
+            "podman-docker"
+        ],
+        "bluestoeps-dx": []
+    }
+},
+"39": {
+    "include": {
+        "bluestoeps": [
+            "input-leap"
+        ],
+        "bluestoeps-dx": [],
+        "bluestoeps-framework": []
+    },
+    "exclude": {
+        "bluestoeps": [
+            "podman-docker"
+        ],
+        "bluestoeps-dx": [],
+        "bluestoeps-framework": []
     }
 }

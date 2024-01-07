@@ -74,6 +74,7 @@ RUN wget https://copr.fedorainfracloud.org/coprs/ublue-os/bling/repo/fedora-$(rp
     /tmp/image-info.sh && \
     cat /usr/share/ublue-os/image-info.json && \
     pip install --prefix=/usr yafti && \
+    pip install --prefix=/usr topgrade && \
     mkdir -p /usr/etc/flatpak/remotes.d && \
     wget -q https://dl.flathub.org/repo/flathub.flatpakrepo -P /usr/etc/flatpak/remotes.d && \
     cp /tmp/ublue-update.toml /usr/etc/ublue-update/ublue-update.toml && \
@@ -90,10 +91,10 @@ RUN wget https://copr.fedorainfracloud.org/coprs/ublue-os/bling/repo/fedora-$(rp
     rm -f /etc/yum.repos.d/charm.repo && \
     rm -f /etc/yum.repos.d/_copr_ublue-os-bling.repo && \
     rm -f /etc/yum.repos.d/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo && \
-    rm -f /usr/share/applications/fish.desktop && \
-    rm -f /usr/share/applications/htop.desktop && \
-    rm -f /usr/share/applications/nvtop.desktop && \
-    rm -fr /usr/share/applications/gnome-system-monitor.desktop && \
+    echo "Hidden=true" >> /usr/share/applications/fish.desktop && \
+    echo "Hidden=true" >> /usr/share/applications/htop.desktop && \
+    echo "Hidden=true" >> /usr/share/applications/nvtop.desktop && \
+    echo "Hidden=true" >> /usr/share/applications/gnome-system-monitor.desktop && \
     sed -i 's/#DefaultTimeoutStopSec.*/DefaultTimeoutStopSec=15s/' /etc/systemd/user.conf && \
     sed -i 's/#DefaultTimeoutStopSec.*/DefaultTimeoutStopSec=15s/' /etc/systemd/system.conf && \
     sed -i '/^PRETTY_NAME/s/Silverblue/Bluefin/' /usr/lib/os-release && \
