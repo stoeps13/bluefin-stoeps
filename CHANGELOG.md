@@ -1,5 +1,47 @@
 # Changelog
 
+## [1.19.0](https://github.com/stoeps13/bluestoeps/compare/v1.18.0...v1.19.0) (2024-01-09)
+
+
+### Features
+
+* add brew package ([#760](https://github.com/stoeps13/bluestoeps/issues/760)) ([85b74ea](https://github.com/stoeps13/bluestoeps/commit/85b74ea9c1e5a4f017f5244ea25a1a37d3c49e13))
+* add dive command ([#762](https://github.com/stoeps13/bluestoeps/issues/762)) ([98a4e80](https://github.com/stoeps13/bluestoeps/commit/98a4e80651adb599c4d87f670f23d53769b79fc6))
+* add dx-specific user setup, install devcontainers/docker vscode extensions by default ([#745](https://github.com/stoeps13/bluestoeps/issues/745)) ([d6737cb](https://github.com/stoeps13/bluestoeps/commit/d6737cb4e8c924bbc7bbc1e1651a3a1e5c94349d))
+* add firewall-config - gui for firewall ([#793](https://github.com/stoeps13/bluestoeps/issues/793)) ([084c9f7](https://github.com/stoeps13/bluestoeps/commit/084c9f7771cdfeb752ad60946e599ab00bce37c5))
+* add gaming, gamingutilities, utilities folders in gnome ([#792](https://github.com/stoeps13/bluestoeps/issues/792)) ([aaa69ea](https://github.com/stoeps13/bluestoeps/commit/aaa69ea71413b4ec6fb76ac212f2cac8f92a3fb3))
+* add playerctl ([#766](https://github.com/stoeps13/bluestoeps/issues/766)) ([e856ac0](https://github.com/stoeps13/bluestoeps/commit/e856ac09e5c5b985aa39bb8a1cc54e0cfcc042d8))
+* add topgrade ([#782](https://github.com/stoeps13/bluestoeps/issues/782)) ([895aee9](https://github.com/stoeps13/bluestoeps/commit/895aee920c321eeb431b098b613130af438bfb86))
+* Add Warehouse ([#798](https://github.com/stoeps13/bluestoeps/issues/798)) ([006cdf2](https://github.com/stoeps13/bluestoeps/commit/006cdf2b849dc62c11fcc0273bbc4c28f41bd64d))
+* bluefin-cli enable sudo/chown linuxbrew ([#763](https://github.com/stoeps13/bluestoeps/issues/763)) ([c049d6c](https://github.com/stoeps13/bluestoeps/commit/c049d6cea0f568c055164e393d3473419499ae5d))
+* **bluefin-cli:** Add host-spawn and create symlinks ([#776](https://github.com/stoeps13/bluestoeps/issues/776)) ([dae9abe](https://github.com/stoeps13/bluestoeps/commit/dae9abe56bfff1ba40de9da121483cc078c0babd))
+* **bluefin-cli:** Persist State of Cellar ([#785](https://github.com/stoeps13/bluestoeps/issues/785)) ([7f52f32](https://github.com/stoeps13/bluestoeps/commit/7f52f32509920f428787d645cf6f4ce9ac707963))
+* **ci:** Verify remaining toolboxes ([#779](https://github.com/stoeps13/bluestoeps/issues/779)) ([bf5868a](https://github.com/stoeps13/bluestoeps/commit/bf5868af642c8184c042f826690974718fd480d7))
+* **dx:** add command-not-found ([#765](https://github.com/stoeps13/bluestoeps/issues/765)) ([f5409ca](https://github.com/stoeps13/bluestoeps/commit/f5409ca14c4607c12159eb9e0587b420dc172145))
+* **dx:** Add wheel users to docker,incus-admin,lxd,libvirt groups ([#775](https://github.com/stoeps13/bluestoeps/issues/775)) ([3dd7809](https://github.com/stoeps13/bluestoeps/commit/3dd78096f6091ad4a9b87e518203bef15b9b0f6a))
+* incus enable script ([#759](https://github.com/stoeps13/bluestoeps/issues/759)) ([c40eff7](https://github.com/stoeps13/bluestoeps/commit/c40eff7d51cecb641f44187a6e040ec3c77cb38c))
+* less frequent image builds for kali and wolfi ([6f9d4ad](https://github.com/stoeps13/bluestoeps/commit/6f9d4ad743eeba3b5f83862229129fe5d617ab09))
+* **toolbox:** Verify wolfi-base before building ([#774](https://github.com/stoeps13/bluestoeps/issues/774)) ([e4ab9d3](https://github.com/stoeps13/bluestoeps/commit/e4ab9d3863661f38a2cbf77a6c2b02f5f95f4608))
+
+
+### Bug Fixes
+
+* **-dx:** Workaround swtpm SELinux issues ([#764](https://github.com/stoeps13/bluestoeps/issues/764)) ([f8dabd4](https://github.com/stoeps13/bluestoeps/commit/f8dabd479349bb5c4888913aa1acbad6f6cec177))
+* **bluefin-cli:** Make sure /usr/bin/sh exists ([#778](https://github.com/stoeps13/bluestoeps/issues/778)) ([3d0b059](https://github.com/stoeps13/bluestoeps/commit/3d0b059e909316d0ac4dd42f0ae14cf3576bc1ef))
+* call the correct binary from the service unit ([#770](https://github.com/stoeps13/bluestoeps/issues/770)) ([075e32c](https://github.com/stoeps13/bluestoeps/commit/075e32ca19911a1e233ba4b5389e483afba8cd38))
+* **dx:** use upstream wolfi as a base image ([#761](https://github.com/stoeps13/bluestoeps/issues/761)) ([73c3e50](https://github.com/stoeps13/bluestoeps/commit/73c3e50707d42b8ddd2b55fe96c5c543d1b51bb7))
+* Hide menu icons without deleting .desktop files ([#786](https://github.com/stoeps13/bluestoeps/issues/786)) ([12f3f00](https://github.com/stoeps13/bluestoeps/commit/12f3f008a009ddea58bc64723869664665642136))
+* package json ([9a41494](https://github.com/stoeps13/bluestoeps/commit/9a41494684a43cde00b0c1b23c6d9603f04c764f))
+* remove `--disable-content-trust` push flag ([#780](https://github.com/stoeps13/bluestoeps/issues/780)) ([bcf3ab1](https://github.com/stoeps13/bluestoeps/commit/bcf3ab1e38f2a760207344358b81fa5d0b0afe4f))
+* remove `systemctl enable docker` from `just docker` command ([#773](https://github.com/stoeps13/bluestoeps/issues/773)) ([97ea484](https://github.com/stoeps13/bluestoeps/commit/97ea484c1a9f7b8482a5deef53c30104854c9a9d))
+* start docker.service on-demand instead of on-boot ([#772](https://github.com/stoeps13/bluestoeps/issues/772)) ([d965108](https://github.com/stoeps13/bluestoeps/commit/d965108d75f4da14f3fa87b219007f19bbb99d94))
+* Update README.md to update the http links to https ([#787](https://github.com/stoeps13/bluestoeps/issues/787)) ([9a8c9b2](https://github.com/stoeps13/bluestoeps/commit/9a8c9b268dc805811e53cdc126e3e137d61ab411))
+
+
+### Reverts
+
+* capslock changes ([07a9798](https://github.com/stoeps13/bluestoeps/commit/07a97987a2d601e3a2500605b4b5693cadfbbee2))
+
 ## [1.18.0](https://github.com/stoeps13/bluestoeps/compare/v1.17.0...v1.18.0) (2023-12-26)
 
 
