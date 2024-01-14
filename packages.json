@@ -67,6 +67,8 @@
           "make",
           "obs-studio",
           "p7zip",
+          "pass",
+          "pinentry-gnome3",
           "p7zip-plugins",
           "podman-compose",
           "podman-plugins",
