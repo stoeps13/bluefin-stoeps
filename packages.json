@@ -1,5 +1,4 @@
 {
-==== BASE ====
   "all": {
     "include": {
       "bluestoeps": [
@@ -91,7 +90,6 @@
           "virt-manager",
           "virt-viewer"
         ]
-==== BASE ====
     },
     "exclude": {
       "bluestoeps": [
