@@ -28,6 +28,7 @@ rubygem-asciidoctor-pdf
 stow
 tmux
 vim
+w3m
 wget
 xclip
 zsh
