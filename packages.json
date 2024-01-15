@@ -86,6 +86,7 @@
                 "qemu-system-x86-core",
                 "qemu-user-binfmt",
                 "qemu-user-static",
+                "shutter",
                 "stow",
                 "tmux",
                 "vim",
