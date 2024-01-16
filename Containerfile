@@ -161,7 +161,7 @@ RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr
 
 RUN /tmp/workarounds.sh
 
-RUN rpm-ostree install -y /tmp/gdm-wallpaper-1-4.noarch.rpm 
+# RUN rpm-ostree install -y /tmp/gdm-wallpaper-1-4.noarch.rpm 
 
 # Clean up repos, everything is on the image so we don't need them
 RUN rm -f /etc/yum.repos.d/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo && \
