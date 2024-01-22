@@ -18,16 +18,16 @@ pull=true
 root=false
 replace=true
 
-[latex]
-additional_packages=""
-image=ghcr.io/stoeps13/latex-toolbox:latest
-#exported_bins="/usr/bin/nvim"
-#exported_bins_path="/home/stoeps/.local/bin"
-init=false
-nvidia=false
-pull=true
-root=false
-replace=true
+# [latex]
+# additional_packages=""
+# image=ghcr.io/stoeps13/latex-toolbox:latest
+# #exported_bins="/usr/bin/nvim"
+# #exported_bins_path="/home/stoeps/.local/bin"
+# init=false
+# nvidia=false
+# pull=true
+# root=false
+# replace=true
 
 [davinci]
 additional_packages="vim tmux"
@@ -48,4 +48,3 @@ init=false
 nvidia=false
 pull=true
 root=true
-replace=true   
