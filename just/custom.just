@@ -99,11 +99,6 @@ distrobox-wolfi:
     echo 'Creating WolfiOS distrobox ...'
     Distrobox "ghcr.io/ublue-os/wolfi-toolbox:latest" "wolfi"
 
-# Create a Kali OS container
-distrobox-kali:
-    echo 'Creating Kali distrobox ...'
-    distrobox create --image ghcr.io/ublue-os/kali-toolbox:latest -n kali
-
 # Create a universal developer container
 distrobox-universal:
     #!/usr/bin/bash
@@ -318,4 +313,3 @@ dx-group:
     sudo usermod -aG lxd $USER
     sudo usermod -aG libvirt $USER
     @echo "Logout to use docker, incus-admin, lxd, libvirt"
-
