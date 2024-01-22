@@ -5,11 +5,6 @@ benchmark:
     echo 'Running a 1 minute benchmark ...'
     stress-ng --matrix 0 -t 1m --times
 
-# Assemble distrobox containers
-assemble:
-    echo 'Assembling and replacing distroboxes ...'
-    distrobox assemble create --replace --file /etc/distrobox/distrobox.ini
-
 # Install aqua | https://aquaproj.github.io
 aqua:
     #!/usr/bin/env bash
@@ -92,27 +87,28 @@ devmode:
 
 # Assemble a Pytorch distrobox (Nvidia only)
 distrobox-mlbox:
+    #!/usr/bin/bash
+    source /usr/lib/ujust/ujust.sh
     echo 'Assembling pytorch-nvidia mlbox distrobox ...'
-    distrobox assemble create --file /usr/share/ublue-os/distrobox/pytorch-nvidia.ini
+    AssembleList create "/usr/share/ublue-os/distrobox/pytorch-nvidia.ini" "mlbox"
 
 # Create a Wolfi OS container | https://github.com/wolfi-dev
 distrobox-wolfi:
+    #!/usr/bin/bash
+    source /usr/lib/ujust/ujust.sh
     echo 'Creating WolfiOS distrobox ...'
-    distrobox create --image ghcr.io/ublue-os/wolfi-toolbox:latest -n wolfi
-
-# Create a Kali OS container
-distrobox-kali:
-    echo 'Creating Kali distrobox ...'
-    distrobox create --image ghcr.io/ublue-os/kali-toolbox:latest -n kali
+    Distrobox "ghcr.io/ublue-os/wolfi-toolbox:latest" "wolfi"
 
 # Create a universal developer container
 distrobox-universal:
+    #!/usr/bin/bash
+    source /usr/lib/ujust/ujust.sh
     echo 'Creating Universal Development distrobox ...'
-    distrobox create --image mcr.microsoft.com/devcontainers/universal:latest -n universal -Y
+    Distrobox "mcr.microsoft.com/devcontainers/universal:latest" "universal"
 
 # Switch to the fish shell
 fish:
-    sudo usermod $USER --shell /usr/bin/fish
+    sudo usermod $USER --shell /usr/bin/fish 
     printf "${USER}'s shell is now %s." "$(cat /etc/passwd | grep ":$UID:" | cut '-d:' '-f7')"
 
 # Install recommended GNOME extensions
@@ -307,7 +303,7 @@ yafti:
 
 # Switch to the zsh shell
 zsh:
-    sudo usermod $USER --shell /usr/bin/zsh
+    sudo usermod $USER --shell /usr/bin/zsh 
     printf "${USER}'s shell is now %s." "$(cat /etc/passwd | grep ":$UID:" | cut '-d:' '-f7')"
 
 # Configure docker,incus-admin,lxd,libvirt container manager permissions
@@ -317,3 +313,4 @@ dx-group:
     sudo usermod -aG lxd $USER
     sudo usermod -aG libvirt $USER
     @echo "Logout to use docker, incus-admin, lxd, libvirt"
+
