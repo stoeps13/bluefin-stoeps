@@ -18,14 +18,10 @@ aqua:
     printf '\n    export PATH="${AQUA_ROOT_DIR:-${XDG_DATA_HOME:-$HOME/.local/share}/aquaproj-aqua}/bin:$PATH"\n'
     printf '\n=> see https://aquaproj.github.io/docs/tutorial for more info\n'
 
-[private]
 bluefin-cli:
-    #!/usr/bin/env bash 
-    if [ ! -d "${XDG_DATA_HOME:-$HOME/.local/share}/bluefin-cli/Cellar" ]; then 
-       mkdir -p "${XDG_DATA_HOME:-$HOME/.local/share}/bluefin-cli/Cellar" 
-    fi; 
-    distrobox-create --nvidia --image ghcr.io/ublue-os/bluefin-cli:latest -n bluefin --volume "${XDG_DATA_HOME:-$HOME/.local/share}/bluefin-cli/Cellar":/home/linuxbrew/.linuxbrew/Cellar:z
-    echo "Entering bluefin-cli" 
+    #!/usr/bin/env bash
+    distrobox-create --nvidia --image ghcr.io/ublue-os/bluefin-cli:latest -n bluefin
+    echo "Entering bluefin-cli"
     distrobox enter -n bluefin
 
 # Enable Cockpit for web-based system management | https://cockpit-project.org/
