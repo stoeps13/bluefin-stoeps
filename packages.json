@@ -65,6 +65,7 @@
                 "isync",
                 "kernel-devel",
                 "libvirt",
+                "libvirt-nss",
                 "make",
                 "notmuch",
                 "obs-studio",
