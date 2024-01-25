@@ -49,11 +49,10 @@ RUN sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo
     if [[ "${FEDORA_MAJOR_VERSION}" -ge "39" ]]; then \
     rpm-ostree install \
     /tmp/akmods-rpms/kmods/*xpadneo*.rpm \
-    /tmp/akmods-rpms/kmods/*xpad-noone*.rpm \
     /tmp/akmods-rpms/kmods/*xone*.rpm \
     /tmp/akmods-rpms/kmods/*openrazer*.rpm \
-    /tmp/akmods-rpms/kmods/*wl*.rpm \
     /tmp/akmods-rpms/kmods/*v4l2loopback*.rpm \
+    /tmp/akmods-rpms/kmods/*wl*.rpm \
     ; fi && \
     # Don't install evdi on asus because of conflicts
     if grep -qv "asus" <<< "${AKMODS_FLAVOR}"; then \
@@ -161,7 +160,7 @@ RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr
 
 RUN /tmp/workarounds.sh
 
-# RUN rpm-ostree install -y /tmp/gdm-wallpaper-1-4.noarch.rpm 
+# RUN rpm-ostree install -y /tmp/gdm-wallpaper-1-4.noarch.rpm
 
 # Clean up repos, everything is on the image so we don't need them
 RUN rm -f /etc/yum.repos.d/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo && \
