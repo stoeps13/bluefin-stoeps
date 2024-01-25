@@ -93,6 +93,7 @@
                 "tmux",
                 "vdirsyncer",
                 "vim",
+                "virt-install",
                 "virt-manager",
                 "virt-viewer"
             ]
