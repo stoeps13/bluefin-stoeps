@@ -19,9 +19,9 @@ aqua:
     printf '\n=> see https://aquaproj.github.io/docs/tutorial for more info\n'
 
 bluefin-cli:
-    #!/usr/bin/env bash 
+    #!/usr/bin/env bash
     distrobox-create --nvidia --image ghcr.io/ublue-os/bluefin-cli:latest -n bluefin
-    echo "Entering bluefin-cli" 
+    echo "Entering bluefin-cli"
     distrobox enter -n bluefin
 
 # Enable Cockpit for web-based system management | https://cockpit-project.org/
