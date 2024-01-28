@@ -68,12 +68,12 @@ RUN curl -Lo /tmp/starship.tar.gz "https://github.com/starship/starship/releases
   install -c -m 0755 /tmp/starship /usr/bin && \
   echo 'eval "$(starship init bash)"' >> /etc/bashrc
 
-RUN pip3 install --prefix=/usr yafti && \
-    pip3 install --prefix=/usr topgrade && \
-    wget https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-"${FEDORA_MAJOR_VERSION}"/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo -O /etc/yum.repos.d/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo && \
+RUN wget https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-"${FEDORA_MAJOR_VERSION}"/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo -O /etc/yum.repos.d/ublue-os-staging-fedora-"${FEDORA_MAJOR_VERSION}".repo && \
     /tmp/build.sh && \
     /tmp/image-info.sh && \
     cat /usr/share/ublue-os/image-info.json && \
+    pip install --prefix=/usr yafti && \
+    pip install --prefix=/usr topgrade && \
     rpm-ostree install ublue-update && \
     glow -s /tmp/motd/dracula.json /tmp/motd/bluefin.md > /usr/share/ublue-os/user-motd && \
     mkdir -p /usr/etc/flatpak/remotes.d && \
