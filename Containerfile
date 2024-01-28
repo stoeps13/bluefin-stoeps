@@ -72,6 +72,7 @@ RUN wget https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-"$
     /tmp/build.sh && \
     /tmp/image-info.sh && \
     cat /usr/share/ublue-os/image-info.json && \
+    echo "Starting pip install" && \
     pip install --prefix=/usr yafti && \
     pip install --prefix=/usr topgrade && \
     rpm-ostree install ublue-update && \
