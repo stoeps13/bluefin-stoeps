@@ -1,4 +1,6 @@
-#This is based on bluefin
+**I will archive this repo soon, I'm switching to a fork of ublue/starting-point.** 
+
+# This is based on bluefin
 
 **This image is considered Beta**
 
